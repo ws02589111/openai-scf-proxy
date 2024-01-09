@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "long-bat-39"
-          entrypoint: "./app.js" # 📝 Update the entrypoint if necessary
+          entrypoint: "/home/runner/work/openai-scf-proxy/openai-scf-proxy/app.js" # 📝 Update the entrypoint if necessary
           root: "." # 📝 Update the root if necessary
